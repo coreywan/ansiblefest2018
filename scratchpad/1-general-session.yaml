@@ -77,8 +77,40 @@ general_session:
       - it is about: [operations, augmentation consumption, simplification]
       - appdev people are moving into a consumption based model for network
       - not a replacement for net operations.. net operations is going to be more of a key going forward
-      
-      
+      - release of ansible 2.7:
+        - network platforms 50
+        - 700+ network mods
+        - 12 galaxy network roles
+        - roles are 2 week sprint releases
+      - evolving network automation:
+        - device centric (what ansible has been doing the last 3 years)
+        - app centric 
+        - cloud centric
+      - Get wired coffee station sponsored by redhat ansible network automation. 
+      - talks not to miss for net auto:
+          - network engine role 
+          - cloud vpn (multi-cloud storage)
+  - Community Contribution:
+    - Speaker: Robyn Bergeron (Community Lead) 
+    - Ansible democratizes automation
+    - regardless of department, title, org.. people can work together on a standard language
+    - ansible community team: [robyn, john harker, carol chen, greg dekoenigs]
+    - 3 connectied community projects: [ansible, awx, galaxy]
+    - metrics:
+      - contributor count: 3787
+      - forks: 13k
+      - stars: 32k
+      - commits: 40k
+    - top 30 fastest growing communities in github (reported by github)
+    - ansible community working groups: [windows,vmware,aws,azure,network]
+    - Galaxy metrics:
+        authors: 8800+
+        roles: 18k
+        nginx roles: 1100+
+    - testing tools: [molecule, ansible-lint, ara, one more i missed]
+    - community is a force multiplier
+    
+        
 
 
 
