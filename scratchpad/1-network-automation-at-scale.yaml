@@ -1,0 +1,34 @@
+net_auto_at_scale:
+  speaker: Landon Holley and James Mighion
+  what_is_it:
+    - infrastructure as yaml
+    - config mgmt
+    - ensure an ongoing steady state
+  ansible_for_network_eng:
+    - used roles
+    - they deployed roles based on setting a single task. (IE Set snmp)  Then in the role tasks it contained the logic to take into account the differences between vendors
+  at_scale:
+    key_factors:
+      - config size -- raw text of show run
+      - device performance -- time to login / send commands / get output
+      - inventory sizes and device families (ios/nxos/etc)
+      - frequency and extent of scheduling device changes
+      - use or availability of network facts
+    sizing:
+      - linear gain when adding CPUs
+      - bigger isn't always better:
+          - more small tower instances
+          - create small inv and use job limits
+          - use lots of small jobs
+      - use facts and fact caching
+    challenges:
+      - git and linux training
+      - variability of device versions
+      - limited hardware
+      - scaling ansible/tower
+      - snowflake devices
+      - defining source of truth
+    lessons_learned:
+      - effectively scaling ansible/tower (there are improvements in Tower 3.3 that help with the effeciencies) (auto sharding in 3.4 tower [matt jones is working on the sharding])
+      - writing effective roles
+      - creative logic for brown field and generic device management
