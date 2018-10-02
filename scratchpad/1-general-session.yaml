@@ -1,0 +1,84 @@
+general_session:
+  - Speaker: Justin 
+  - attendee count > 1000
+  - Testing for Tower UI is on level 3
+  - Getting Started team is on level 4
+  - Automation makes teh rise of [tools, change, complexity, expectations] managable
+  - accelerate - integrate - collaborate
+  - helping teams:
+      - make it easier to get started
+  - 1 million in 4 years .. 2 million in 7 months. These are licensed RHEL nodes. (managed nodes)
+  - anybody can pick up the basics in an hour and be productive in less than a day - Jeff Geerling
+  - new focus on security automation
+  - empowering teams:
+    - devops
+    - it ops
+    - security
+    - infrastructure
+    - network
+  - Module count > 2100k
+  - How are they testing/managing all of those modules
+  - Ansible now has "ansible certified" with two tiers "Trusted Automation" and "Fully Supported"
+  - This new model will help with partners developing modules.
+  - More details in later sessions/product updates
+  - this is launced with partners, F5 netapp cisco infoblox and a couple more
+  - What makes sharing automation work:
+        - The right technical tools
+        - culture empowered by technology (people problme)
+        willingness to overcome inertia
+  - Harry Karr - sen application engineer - TIAA:
+      - People don't come to us saying they want a F5 VIP, or a Server, or storage. They want a whole environment
+      - Business teams take months to get their requirements together, then the appdev teams take months to development their requirements, finally they come to the infrastructure team and want it htat day
+      - Make tower frictionless from how each team use Tower
+      - They have a build tower instance
+      - they then go through the dev test and prod migrations after the build phase.
+      - Tower is helping with better visibilities.
+      - They have metadata in their repo (like our deploy folder) that tracks the cost savings per execution.. and merge that data with Splunk
+      - He has a splunk breakout session
+      - They built a team that helps people automate, not do the automation
+  - Ansible Galaxy Efforts are increasing
+  - Automation Everwhere
+  - Product Direction:
+      - Speaker: Director of engineering - Jason McKerr
+      - Automation Everywhere [servers and inf, apps, networks, containers, security, next...] 
+      - 3 new things:
+          - Performance and scale 
+          - Ecosystem (creating community aka galaxy update)
+          - Security Automation
+      - ansible core:
+          - Ansible 2.7 memory handling improve
+          - 2.7 release is thursday.
+          - 2.6 was all about speed network and stabilization
+          - 2.7 is about access content and scalability
+      - tower:
+          3.3 focus: containers performance versioning
+          3.4 focus: scaability - access -  content (end of this year) on-demand capacity and job sharding in tower.
+      - galaxy:
+          - testing framework
+          - pre-existing contract
+          - certified by vendor and redhat both
+          - mollecule? what is mollecule? (testing framework for galaxy)
+      - redhat ansible automation cert:
+          - redhat ansible content
+          - certified trusted content
+          - general community content
+          - There will be scoring on content! cool!
+      - security automation:
+          - used a lot for security, but doesn't have pre-packaged security
+          - going to release workflows 
+          - workflows:
+            - risk assessment
+            - threat hunting
+            - inc resp
+            - remediation
+  - Network Automation:
+      - Speaker: wasn't paying close enough attention
+      - evolving network operations is NOT aboout: [sdn, host networking, virtual networking, control plane vs data plane]
+      - it is about: [operations, augmentation consumption, simplification]
+      - appdev people are moving into a consumption based model for network
+      - not a replacement for net operations.. net operations is going to be more of a key going forward
+      
+      
+
+
+
