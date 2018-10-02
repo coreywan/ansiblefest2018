@@ -1,0 +1,48 @@
+ansible_for_consulting_orgs:
+  speaker: aaron eisler - head of automation Telstra
+  digital_strategy:
+    - underpin any automation strategy with a good digital strategy
+    - variability and variation is high in consulting role
+    - Suggested read: Digital Transformation playbook book
+    - key pieces: [fast innovation, differentiated service, enhanced value, data digitised]
+  build:
+    - new battleground is right above the network controller. 
+    - Build cross platform orchestration as a integrator
+  knowledge_management:
+    - make once use many
+    - source of truth for best practice
+    - reduced repetition
+    - Get together to agree on the fundamentals to remove silos of automation mechanisms
+    - proof of concepts and validation
+    - cusotmer agreed standards
+    - telstra agreed standards
+    - knowledge transfer is system ic
+    - important to build the standards correctly so that playbooks/roles/code can be re-used between customers
+    - the standards gives people the confidence on know how your code will work with another team's code.
+    - the ability to separate the intellectual property
+  leverage_automation_across_accounts:
+    - our ip in playbooks
+    - customer ip in configurations on the customer site
+    - telstra has 400 PS Network Engineers
+  why_ansible:
+    - reusablity of ip
+    - quite difficult to teach software engineers how to be a network engineer
+    - open source culture
+    - enable the front line
+    - Use AWX as a method to do a POC in the customer environment before operationalizing
+  commercializing_automation:
+    - this enabled them to talk higher in the stack: [marketing teams, business teams, application teams]
+    - spend less timeon the consult design build with the automated route since it is all baked in.
+  getting_funding:
+    - baseline activity
+    - calculate how long it will take with automation
+    - find difference to cash flow via increased savigns or additional revenue
+    - imporvement  = increased cash flow
+  capability_plan:
+    - plans to develop the staff.
+    - test labs for network engineers to use.
+    - levels: [beginner, senior, principal, distinguished]
+    - weekly use case demos
+  questions:
+    how do you protect your own IP: the value they get from having additional conversations with other business units (outside network engineers) are much higher than loosing that IP.
+    
