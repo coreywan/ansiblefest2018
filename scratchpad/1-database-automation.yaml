@@ -1,0 +1,8 @@
+database_automation:
+  speaker: sawwoong lee (rex)
+  line_database_inf:
+    - lots of dbs: [mysql, oracle, mssql, redis, hbase, mongo, cubrid, elastic search]
+    - database server count: 10k+
+    - 82% mysql -- 1% oracle
+    - generally one instance to one server
+    - most of the conversation is around mysql. (I'm ducking out now since we don't have mysql)
