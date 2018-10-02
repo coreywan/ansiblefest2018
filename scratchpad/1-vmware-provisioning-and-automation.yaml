@@ -1,0 +1,27 @@
+vmware_provisioning:
+  speaker: Abhijeet Kasurde - ansible engineering
+  current_status:
+    - uses pyvmomi pythong sdk
+    - 77 modules are present
+    - community - https://github.com/ansible/community/wiki/VMware
+    - docs - https://docs.ansible.com/ansible/devel/vmware/vmware_scenarios.html
+  work_in_progress:
+    - explore vmware python sdk for rest api
+    - stabilize vmware_guest - trying to fix corner cases
+    - pull request (looking for feedback on how to do better testing)
+    - vmware vm inventory plugin -- to use inventory within Ansible Engine directly
+    - trends ansible vmware space http://dash.tannerjc.net/graph
+    - new modules see picture to be uploaded later
+  roadmap:
+    - add certified vmware roles in anasible galaxy
+    - vmware connection plugin
+    - vmware on aws support
+    - add vsan and vmotion
+    - support for nsx-t role
+mindpoint_usecase:
+  speaker: Matt Shepherd 
+    - was using ansible for cloud migration on a NASA project
+    - provides oversight for DOJ
+    - SOP - standard operating procedures
+    - https://github.com/MindPointGroup/ansible-vmware-provisioning
+
