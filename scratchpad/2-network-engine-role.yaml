@@ -1,0 +1,23 @@
+---
+network_engine_role:
+  speaker: Trishna Guha
+  ansible_network_engine:
+    - decoupled from ansible devel branch
+    - bi-weekly release cycle - ship early, ship often approach
+    - new capabilities new features to interface with network devices and models
+  ansible_network_functions:
+    - extends the network engine role (it's all just ansible)
+    - data driven with focused implementation on operational use case
+    - extensible by anyone for any platform
+  action_plugins:
+    - command_parser: uses yaml language
+    - textfsm_parser: uses textfsm rules
+  filter_plugins:
+    - interface_split
+    - interface_range
+    - vlan_expand
+    - vlan_compress
+  lookup_plugins:
+    - config_template
+    - json_template
+    - netcfg_diff: compares 2 running configs and returns a diff
