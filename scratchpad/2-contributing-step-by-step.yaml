@@ -1,0 +1,30 @@
+contributing_step_by_step:
+  speaker: John McDonough, Developer Evanglist developer.cisco.com -- moveinalot
+  read_the_docs:
+    - ansible module development walkthrough
+  other_notes:
+    - Cisco_ are being depricated and ucs_ are the replacements
+    - ucs_managed_objects can manage all objects
+  step_by_step:
+    1 Fork ansible on github: 
+    2 clone your fork:
+    3 setup the dev env: [cd ansible, python3 -m venv venv, . venv/bin/activate, pip install -r requirements.txt, . hacking/env-setup]
+    4 create an ansible module:
+      - Do one thing well
+      - test the module locally
+      - create unit tests
+    5 submit pull request:
+      - create feature branch
+      - commit code into that feature branch
+      - one PR per feature branch
+      - there are rei
+    6 sync your fork:
+      - git remote add upstream <upstremtoansible/ansible>
+      - git remote -v
+      - git fetch upstream <- fetch teh current ansible/devel
+      - git checkout devel <- checkout your devel
+      - git merge upstream/devel <- merge ansible/devel to your devel
+      - git push origin devel <- push your devel to your ansible fork
+    7 delete your branch:
+
+
