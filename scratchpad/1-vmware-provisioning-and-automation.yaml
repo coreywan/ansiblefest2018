@@ -1,4 +1,5 @@
-vmware_provisioning:
+---
+mware_provisioning:
   speaker: Abhijeet Kasurde - ansible engineering
   current_status:
     - uses pyvmomi pythong sdk
@@ -19,9 +20,8 @@ vmware_provisioning:
     - add vsan and vmotion
     - support for nsx-t role
 mindpoint_usecase:
-  speaker: Matt Shepherd 
+  speaker: Matt Shepherd
     - was using ansible for cloud migration on a NASA project
     - provides oversight for DOJ
     - SOP - standard operating procedures
     - https://github.com/MindPointGroup/ansible-vmware-provisioning
-

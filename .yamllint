@@ -1,0 +1,6 @@
+---
+extends: default
+
+rules:
+    # Disable warnings about line-length > 80 characters
+    line-length: disable

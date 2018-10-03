@@ -1,3 +1,4 @@
+---
 ansible_for_consulting_orgs:
   speaker: aaron eisler - head of automation Telstra
   digital_strategy:
@@ -6,7 +7,7 @@ ansible_for_consulting_orgs:
     - Suggested read: Digital Transformation playbook book
     - key pieces: [fast innovation, differentiated service, enhanced value, data digitised]
   build:
-    - new battleground is right above the network controller. 
+    - new battleground is right above the network controller.
     - Build cross platform orchestration as a integrator
   knowledge_management:
     - make once use many
@@ -45,4 +46,3 @@ ansible_for_consulting_orgs:
     - weekly use case demos
   questions:
     how do you protect your own IP: the value they get from having additional conversations with other business units (outside network engineers) are much higher than loosing that IP.
-    

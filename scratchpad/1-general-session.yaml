@@ -1,5 +1,6 @@
+---
 general_session:
-  - Speaker: Justin 
+  - Speaker: Justin
   - attendee count > 1000
   - Testing for Tower UI is on level 3
   - Getting Started team is on level 4
@@ -11,11 +12,11 @@ general_session:
   - anybody can pick up the basics in an hour and be productive in less than a day - Jeff Geerling
   - new focus on security automation
   - empowering teams:
-    - devops
-    - it ops
-    - security
-    - infrastructure
-    - network
+      - devops
+      - it ops
+      - security
+      - infrastructure
+      - network
   - Module count > 2100k
   - How are they testing/managing all of those modules
   - Ansible now has "ansible certified" with two tiers "Trusted Automation" and "Fully Supported"
@@ -23,9 +24,9 @@ general_session:
   - More details in later sessions/product updates
   - this is launced with partners, F5 netapp cisco infoblox and a couple more
   - What makes sharing automation work:
-        - The right technical tools
-        - culture empowered by technology (people problme)
-        willingness to overcome inertia
+      - The right technical tools
+      - culture empowered by technology (people problme)
+      - willingness to overcome inertia
   - Harry Karr - sen application engineer - TIAA:
       - People don't come to us saying they want a F5 VIP, or a Server, or storage. They want a whole environment
       - Business teams take months to get their requirements together, then the appdev teams take months to development their requirements, finally they come to the infrastructure team and want it htat day
@@ -40,9 +41,9 @@ general_session:
   - Automation Everwhere
   - Product Direction:
       - Speaker: Director of engineering - Jason McKerr
-      - Automation Everywhere [servers and inf, apps, networks, containers, security, next...] 
+      - Automation Everywhere [servers and inf, apps, networks, containers, security, next...]
       - 3 new things:
-          - Performance and scale 
+          - Performance and scale
           - Ecosystem (creating community aka galaxy update)
           - Security Automation
       - ansible core:
@@ -65,12 +66,12 @@ general_session:
           - There will be scoring on content! cool!
       - security automation:
           - used a lot for security, but doesn't have pre-packaged security
-          - going to release workflows 
+          - going to release workflows
           - workflows:
-            - risk assessment
-            - threat hunting
-            - inc resp
-            - remediation
+              - risk assessment
+              - threat hunting
+              - inc resp
+              - remediation
   - Network Automation:
       - Speaker: wasn't paying close enough attention
       - evolving network operations is NOT aboout: [sdn, host networking, virtual networking, control plane vs data plane]
@@ -78,39 +79,34 @@ general_session:
       - appdev people are moving into a consumption based model for network
       - not a replacement for net operations.. net operations is going to be more of a key going forward
       - release of ansible 2.7:
-        - network platforms 50
-        - 700+ network mods
-        - 12 galaxy network roles
-        - roles are 2 week sprint releases
+          - network platforms 50
+          - 700+ network mods
+          - 12 galaxy network roles
+          - roles are 2 week sprint releases
       - evolving network automation:
-        - device centric (what ansible has been doing the last 3 years)
-        - app centric 
-        - cloud centric
-      - Get wired coffee station sponsored by redhat ansible network automation. 
+          - device centric (what ansible has been doing the last 3 years)
+          - app centric
+          - cloud centric
+      - Get wired coffee station sponsored by redhat ansible network automation.
       - talks not to miss for net auto:
-          - network engine role 
+          - network engine role
           - cloud vpn (multi-cloud storage)
   - Community Contribution:
-    - Speaker: Robyn Bergeron (Community Lead) 
-    - Ansible democratizes automation
-    - regardless of department, title, org.. people can work together on a standard language
-    - ansible community team: [robyn, john harker, carol chen, greg dekoenigs]
-    - 3 connectied community projects: [ansible, awx, galaxy]
-    - metrics:
-      - contributor count: 3787
-      - forks: 13k
-      - stars: 32k
-      - commits: 40k
-    - top 30 fastest growing communities in github (reported by github)
-    - ansible community working groups: [windows,vmware,aws,azure,network]
-    - Galaxy metrics:
-        authors: 8800+
-        roles: 18k
-        nginx roles: 1100+
-    - testing tools: [molecule, ansible-lint, ara, one more i missed]
-    - community is a force multiplier
-    
-        
-
-
-
+      - Speaker: Robyn Bergeron (Community Lead)
+      - Ansible democratizes automation
+      - regardless of department, title, org.. people can work together on a standard language
+      - ansible community team: [robyn, john harker, carol chen, greg dekoenigs]
+      - 3 connectied community projects: [ansible, awx, galaxy]
+      - metrics:
+          - contributor count: 3787
+          - forks: 13k
+          - stars: 32k
+          - commits: 40k
+      - top 30 fastest growing communities in github (reported by github)
+      - ansible community working groups: [windows, vmware, aws, azure, network]
+      - Galaxy metrics:
+          authors: 8800+
+          roles: 18k
+          nginx roles: 1100+
+      - testing tools: [molecule, ansible-lint, ara, one more i missed]
+      - community is a force multiplier

@@ -1,3 +1,4 @@
+---
 automate_infoblox:
   - 2.7 has a inventory script
   - all modules are certified and jointly supported by Ansible and Inventory

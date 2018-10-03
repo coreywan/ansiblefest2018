@@ -1,5 +1,6 @@
+---
 cicd_for_network_automation:
-  - speakers: victor da costa and ajay chenmpara
+  speakers: victor da costa and ajay chenmpara
   other_notes:
     - gitnetops <- new one for me
     - TETRIS logo? it's red.
@@ -21,14 +22,12 @@ cicd_for_network_automation:
     - git centric: pull requests from other teams... git is the tool for requests, changes, and approvals
     - automatic: PR are validated, promoted, and released automatically with extensive tests.. what is request for changes?
   branch_convention:
-    release-x.y.z: 
+    release-x.y.z:
     master: latest stable release
     full: entire topology test branch
     site-x: partial topology test branch
     issue-123: feature branch to fix an issue
   fail_fast_test_often:
-    - {{repo}}/tests/test.yaml
+    - "{{repo}}/tests/test.yaml"
   ci:
     - they have a provisioner that stands up a partial topology as virtual machines
-  
-    
