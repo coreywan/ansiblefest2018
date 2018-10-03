@@ -1,0 +1,12 @@
+day_2_general_session:
+  servicemaster:
+    - speaker: chad davis (servicemaster)
+    - doing server builds through ansible
+    - looking at "chatops"
+  us_bank:
+    - speaker: Jason Cummings
+    - release cycles needed to be reduced, and needed an automation platform that was reliable
+    - using ansible for compliance
+    - was able to get people to start colloborating and sharing Ansible roles
+
+
